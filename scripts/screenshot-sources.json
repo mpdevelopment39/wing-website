@@ -40,5 +40,53 @@
     "language": "es",
     "width": 1000,
     "height": 2174
+  },
+  {
+    "asset": "en/identify.jpg",
+    "source": "outputs/appscreens/all-languages/raw/en-US_01.png",
+    "language": "en",
+    "width": 1000,
+    "height": 2174,
+    "source_sha256": "14c035dae8d80fda10df2047b1f5d0586c8cbc686cad484fffbb4ac9ca366570"
+  },
+  {
+    "asset": "en/widgets.jpg",
+    "source": "outputs/appscreens/all-languages/raw/en-US_02.png",
+    "language": "en",
+    "width": 1000,
+    "height": 2174,
+    "source_sha256": "d349ba6542f621830f8e07a223484af8e8660bf7747bb0cfe0c86ba970417f28"
+  },
+  {
+    "asset": "en/guide.jpg",
+    "source": "outputs/appscreens/all-languages/raw/en-US_03.png",
+    "language": "en",
+    "width": 1000,
+    "height": 2174,
+    "source_sha256": "a16ede7a11f5f8906c23a41d1bdf4623bc742f1f28cf7614d2bb97a903fc6435"
+  },
+  {
+    "asset": "en/species.jpg",
+    "source": "outputs/appscreens/all-languages/raw/en-US_04.png",
+    "language": "en",
+    "width": 1000,
+    "height": 2174,
+    "source_sha256": "d473a87b2bc8879aa9c36732f40f803380049f8e0946ddf2b5f3ebc8d15914d4"
+  },
+  {
+    "asset": "en/learn.jpg",
+    "source": "outputs/appscreens/all-languages/raw/en-US_05.png",
+    "language": "en",
+    "width": 1000,
+    "height": 2174,
+    "source_sha256": "936c6254f72d50014844edb82ed54940d7fc19307176f70d1b883409a22dfcdd"
+  },
+  {
+    "asset": "en/journal.jpg",
+    "source": "outputs/appscreens/all-languages/raw/en-US_06.png",
+    "language": "en",
+    "width": 1000,
+    "height": 2174,
+    "source_sha256": "c1bce9d424d7aa09656e5b51e9e20552ec8c2d38fa78aad053722e4204b1e35a"
   }
 ]

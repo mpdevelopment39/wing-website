@@ -62,7 +62,8 @@ def screen(lang, feature, hero=False):
     alt = escape(feature['alt'], quote=True)
     label = escape(c['expand'] + ': ' + feature['label'], quote=True)
     loading = 'fetchpriority="high"' if hero else 'loading="lazy"'
-    return f'''<a class="screen-link device device-{name}" href="../assets/screens/{name}.jpg" data-screen aria-label="{label}"><img src="../assets/screens/{name}.jpg" width="1000" height="2174" alt="{alt}" {loading}><span class="screen-expand" aria-hidden="true">↗</span></a>'''
+    source = f'../assets/screens/{"en/" if lang == "en" else ""}{name}.jpg'
+    return f'''<a class="screen-link device device-{name}" href="{source}" data-screen aria-label="{label}"><img src="{source}" width="1000" height="2174" alt="{alt}" {loading}><span class="screen-expand" aria-hidden="true">↗</span></a>'''
 
 
 def feature_section(lang, feature, index):

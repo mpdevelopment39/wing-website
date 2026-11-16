@@ -23,7 +23,7 @@ The Spanish and English landing pages present sound identification, widgets and 
 
 ## Screenshots and credits
 
-The six images in `assets/screens/` come from the original Spanish app captures used for the Wing AppScreens project, not the exported store graphics. The source mapping is recorded in `scripts/screenshot-sources.json`. Images were resized to 1,000 pixels wide and JPEG-compressed without altering the UI. The journal contains a fictional sample encounter. Both site languages label screenshots as Spanish.
+The six images in `assets/screens/` come from the original Spanish app captures used for the Wing AppScreens project. English captures from the same project live in `assets/screens/en/` and are used throughout the English landing page and its image viewer. These are native app captures, not the exported store graphics. The source mapping is recorded in `scripts/screenshot-sources.json`. Images were resized to 1,000 pixels wide and JPEG-compressed without altering the UI. The journal contains a fictional sample encounter. Each site language labels screenshots in its own language.
 
 Interface and branding: MPER STUDIO S.L. Bird photographs retain their original licenses. Creator attribution, source and license links are recorded in `scripts/photo-credits.json` and displayed in the expandable photograph credits at the bottom of each landing page.
 

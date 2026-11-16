@@ -75,6 +75,6 @@ FAQ = {
         ('Can Wing identify a bird from a photo?', 'Automatic identification uses sound. Photos help you explore species, practice and preserve your sightings in the journal.'),
         ('What can I use offline?', 'Birdsong analysis, your journal and content already on your device can work offline. Maps, nearby observations, remote images and reference songs may require an Internet connection.'),
         ('Are my recordings uploaded for identification?', 'No. Analysis runs on your iPhone. Maps, nearby bird searches and other content use external services when you request them. Our Privacy Policy explains the details.'),
-        ('Which languages are available?', 'Wing’s interface supports English, Spanish, French, German, Italian, Portuguese, Dutch, Japanese, Korean, Simplified Chinese, Arabic and Hindi. These screenshots show the app in Spanish.'),
+        ('Which languages are available?', 'Wing’s interface supports English, Spanish, French, German, Italian, Portuguese, Dutch, Japanese, Korean, Simplified Chinese, Arabic and Hindi. These screenshots show the app in English.'),
         ('How can I get in touch?', 'Email <a href="mailto:info@legal-assistant-ai.com">info@legal-assistant-ai.com</a> with the subject “Wing support”.')]
 }
