@@ -52,7 +52,7 @@ def page(lang, title, description, body, route='', depth=1, script=False):
   <link rel="alternate" hreflang="es" href="{URL}/es/{route}"><link rel="alternate" hreflang="en" href="{URL}/en/{route}"><link rel="alternate" hreflang="x-default" href="{URL}/en/{route}">
   <meta property="og:type" content="website"><meta property="og:title" content="{escape(title, quote=True)}"><meta property="og:description" content="{escape(description, quote=True)}"><meta property="og:url" content="{URL}/{lang}/{route}"><meta property="og:image" content="{URL}/assets/wing-icon.jpg"><meta property="og:image:alt" content="Wing">
   <link rel="icon" href="{up}assets/favicon.png"><link rel="stylesheet" href="{up}styles.css?v={VERSION}">
-  {f'<script src="{up}site.js?v={VERSION}" defer></script>' if script else ''}
+{f'<script src="{up}site.js?v={VERSION}" defer></script>' if script else ''}
 </head><body>{body}</body></html>'''
 
 
