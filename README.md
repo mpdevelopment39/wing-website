@@ -4,25 +4,31 @@ Public product and legal website for Wing: Bird Identifier, by MPER STUDIO S.L.
 
 Live: https://mpdevelopment39.github.io/wing-app/es/
 
-This repository contains only public website files. The iOS source repository remains private.
+This repository contains only public website files. The iOS repository remains private.
 
 ## Edit and preview
 
-Edit `styles.css`, `scripts/build.py` (layout and bilingual product copy), or `scripts/legal_content.py` (legal copy), then run:
+Product copy lives in `scripts/content.py` and `scripts/site_copy.json`; page structure in `scripts/build.py`; styles in `styles.css`; legal text in `scripts/legal_content.py`. Run:
 
 ```sh
 python3 scripts/build.py
 python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
-Open http://127.0.0.1:8765/es/. No npm packages, build service, tracking scripts or remote fonts are needed. HTML is generated before commit; GitHub Pages serves the main branch root. Commit generated HTML alongside its sources.
+Open http://127.0.0.1:8765/es/. No package installation is required. GitHub Pages serves the generated HTML from the main branch root. Commit both generated pages and their sources.
 
-Legal pages are available at `/en/privacy-policy/`, `/es/privacy-policy/`, `/en/terms-and-conditions/` and `/es/terms-and-conditions/` beneath the repository URL. Keep both languages synchronized with app functionality.
+The Spanish and English landing pages present sound identification, widgets and quick access, the bird guide, species details, the journal and learning. Additional sections explain nearby observations and backups. There is no pricing or subscription-plan section on the landing pages. Subscription information remains in the legal terms.
 
-## Content credits
+`site.js` progressively enhances screenshot links with a keyboard-accessible image viewer. Links open the full image when JavaScript is unavailable. There are no tracking scripts, remote fonts or analytics cookies.
 
-Wing branding and app screenshots: MPER STUDIO S.L. The home screenshot is in Spanish; the sound identification screenshot is in English. Screenshots include their on-screen species imagery.
+## Screenshots and credits
 
-The full-width Eurasian hoopoe photograph and the corresponding app screenshot: Greg Schechter from San Francisco, USA, [original](https://commons.wikimedia.org/wiki/File:Israel._Eurasian_Hoopoe_(6497645007).jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). The photograph has been resized, compressed and cropped in the layout. Attribution appears beside the photograph.
+The six images in `assets/screens/` come from the original Spanish app captures used for the Wing AppScreens project, not the exported store graphics. The source mapping is recorded in `scripts/screenshot-sources.json`. Images were resized to 1,000 pixels wide and JPEG-compressed without altering the UI. The journal contains a fictional sample encounter. Both site languages label screenshots as Spanish.
 
-Support and company details are taken from the developer’s existing Legal Assistant AI website, as requested by the owner. The page does not imply that Wing is already released in App Store. Update the availability text and add the verified App Store download link after release.
+Interface and branding: MPER STUDIO S.L. Bird photographs retain their original licenses. Creator attribution, source and license links are recorded in `scripts/photo-credits.json` and displayed in the expandable photograph credits at the bottom of each landing page.
+
+## Legal pages
+
+Privacy and terms remain available at `/en/privacy-policy/`, `/es/privacy-policy/`, `/en/terms-and-conditions/` and `/es/terms-and-conditions/` beneath the repository URL. Keep both languages aligned with the shipped app.
+
+Company details and support contact come from the developer’s Legal Assistant AI website, as requested by its owner. Availability remains “Coming to the App Store” until the released listing can be verified.

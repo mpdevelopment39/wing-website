@@ -1,0 +1,44 @@
+[
+  {
+    "asset": "identify.jpg",
+    "source": "outputs/appscreens/es/01-identificar.png",
+    "language": "es",
+    "width": 1000,
+    "height": 2174
+  },
+  {
+    "asset": "widgets.jpg",
+    "source": "outputs/appscreens/es/02-widgets.png",
+    "language": "es",
+    "width": 1000,
+    "height": 2174
+  },
+  {
+    "asset": "guide.jpg",
+    "source": "outputs/appscreens/es/03-guia.png",
+    "language": "es",
+    "width": 1000,
+    "height": 2174
+  },
+  {
+    "asset": "species.jpg",
+    "source": "outputs/appscreens/es/04-ficha.png",
+    "language": "es",
+    "width": 1000,
+    "height": 2174
+  },
+  {
+    "asset": "journal.jpg",
+    "source": "outputs/appscreens/es/05-diario.png",
+    "language": "es",
+    "width": 1000,
+    "height": 2174
+  },
+  {
+    "asset": "learn.jpg",
+    "source": "outputs/appscreens/es/06-aprender.png",
+    "language": "es",
+    "width": 1000,
+    "height": 2174
+  }
+]
