@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mpdevelopment39.github.io/wing-app/sitemap.xml
