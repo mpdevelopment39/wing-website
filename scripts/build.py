@@ -7,7 +7,7 @@ from content import FEATURES, EXTRAS, FAQ
 from legal_content import PRIVACY, TERMS
 
 ROOT = Path(__file__).resolve().parents[1]
-URL = 'https://mpdevelopment39.github.io/wing-app'
+URL = 'https://mpdevelopment39.github.io/wing-website'
 COPY = json.loads((ROOT / 'scripts/site_copy.json').read_text())
 VERSION = '4'
 

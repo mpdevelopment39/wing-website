@@ -2,7 +2,7 @@
 
 Public product and legal website for Wing: Bird Identifier, by MPER STUDIO S.L.
 
-Live: https://mpdevelopment39.github.io/wing-app/es/
+Live: https://mpdevelopment39.github.io/wing-website/es/
 
 This repository contains only public website files. The iOS repository remains private.
 
