@@ -254,3 +254,7 @@ details[open] summary:after { content:"−"; }
   .feature-shortcuts b { display:none; }
 }
 @media(prefers-reduced-motion:reduce) { :root { scroll-behavior:auto; } .screen-expand { transition:none; } }
+
+/* Clearly distinguish the forthcoming app update from the current store build. */
+.release-preview{max-width:40rem;color:var(--forest,#123c34);font-size:.85rem;line-height:1.6;border-left:2px solid #d9ed8b;padding-left:1rem;margin-top:1rem}
+.availability a{color:inherit;text-underline-offset:3px}

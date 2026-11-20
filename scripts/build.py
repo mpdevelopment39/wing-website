@@ -9,7 +9,7 @@ from legal_content import PRIVACY, TERMS
 ROOT = Path(__file__).resolve().parents[1]
 URL = 'https://mpdevelopment39.github.io/wing-website'
 COPY = json.loads((ROOT / 'scripts/site_copy.json').read_text())
-VERSION = '4'
+VERSION = '5'
 
 
 def header(lang, kind='', depth=1):
@@ -23,7 +23,7 @@ def header(lang, kind='', depth=1):
 <header class="header wrap">
   <a class="brand" href="{up}{lang}/" aria-label="Wing"><img src="{up}assets/wing-icon.jpg" width="44" height="44" alt=""><span class="wordmark">Wing</span></a>
   <nav aria-label="{nav_label}">
-    <a class="desktop-link" href="{up}{lang}/#discover">{c['features']}</a>
+    <a class="desktop-link" href="{up}{lang}/#features">{c['features']}</a>
     <a class="desktop-link" href="{up}{lang}/#questions">{c['questions']}</a>
     <a href="mailto:info@legal-assistant-ai.com">{c['support']}</a>
     <a class="language" href="{up}{other}/{route}" lang="{other}" aria-label="{language_label}">{other.upper()}</a>
@@ -62,7 +62,7 @@ def screen(lang, feature, hero=False):
     alt = escape(feature['alt'], quote=True)
     label = escape(c['expand'] + ': ' + feature['label'], quote=True)
     loading = 'fetchpriority="high"' if hero else 'loading="lazy"'
-    source = f'../assets/screens/{"en/" if lang == "en" else ""}{name}.jpg'
+    source = f'../assets/screens/{"en/" if lang == "en" else ""}{name}.jpg?v={VERSION}'
     return f'''<a class="screen-link device device-{name}" href="{source}" data-screen aria-label="{label}"><img src="{source}" width="1000" height="2174" alt="{alt}" {loading}><span class="screen-expand" aria-hidden="true">↗</span></a>'''
 
 
@@ -88,17 +88,17 @@ def home(lang):
     body = header(lang) + f'''
 <main id="main">
   <section class="hero wrap">
-    <div class="hero-copy"><span class="eyebrow">{c['eyebrow']}</span><h1>{c['headline']}</h1><p class="hero-intro">{c['intro']}</p><a class="button" href="#discover">{c['explore']}<span aria-hidden="true">↗</span></a><p class="availability">{c['soon']}</p></div>
+    <div class="hero-copy"><span class="eyebrow">{c['eyebrow']}</span><h1>{c['headline']}</h1><p class="hero-intro">{c['intro']}</p><a class="button" href="https://apps.apple.com/app/id6835578689">{c['store']}<span aria-hidden="true">↗</span></a><p class="availability">{c['soon']} · <a href="#features">{c['explore']}</a></p><p class="release-preview">{c['release']}</p></div>
     <div class="hero-stage"><span class="hero-label">WING / {'EN TU IPHONE' if lang == 'es' else 'ON YOUR IPHONE'}</span><div class="hero-phones"><div class="hero-primary">{screen(lang, features[0], True)}</div><div class="hero-secondary">{screen(lang, features[3], True)}</div></div><p class="hero-caption">{c['gallerynote']}</p></div>
   </section>
-  <section class="feature-index wrap" id="discover" aria-labelledby="feature-index-title">
+  <section class="feature-index wrap" id="features" aria-labelledby="feature-index-title">
     <div class="index-heading"><span class="eyebrow">{'ASÍ ES WING' if lang == 'es' else 'MEET WING'}</span><h2 id="feature-index-title">{c['introtitle']}</h2><p>{c['introbody']}</p></div>
     <nav class="feature-shortcuts" aria-label="{c['features']}">{shortcuts}</nav>
   </section>
   <div class="feature-story">{sections}</div>
   <section class="extras wrap" aria-label="{'Más funciones de Wing' if lang == 'es' else 'More Wing features'}">{extra}</section>
   <section class="faq-section wrap" id="questions"><div><span class="eyebrow">{'LO QUE QUIERES SABER' if lang == 'es' else 'GOOD TO KNOW'}</span><h2>{c['faqtitle']}</h2></div><div class="faq">{faq}</div></section>
-  <section class="closing wrap"><span class="eyebrow">WING</span><h2>{c['closing']}</h2><p>{c['closingbody']}</p><span class="coming-soon">{c['soon']}</span></section>
+  <section class="closing wrap"><span class="eyebrow">WING</span><h2>{c['closing']}</h2><p>{c['closingbody']}</p><a class="button" href="https://apps.apple.com/app/id6835578689">{c['store']} ↗</a></section>
   <div class="credits wrap"><details><summary>{c['credits']}</summary><p>{'Interfaz y capturas: MPER STUDIO S.L. Las imágenes de aves conservan las licencias de sus autores. Las capturas se han reducido y comprimido para esta web.' if lang == 'es' else 'Interface and screenshots: MPER STUDIO S.L. Bird photographs retain their authors’ licenses. Screenshots have been resized and compressed for this website.'}</p><ul>{photo_credits(lang)}</ul></details></div>
 </main>
 <dialog class="screenshot-dialog" aria-labelledby="screenshot-caption"><div class="dialog-bar"><p id="screenshot-caption"></p><button type="button" data-close aria-label="{c['close']}">{c['close']} <span aria-hidden="true">×</span></button></div><div class="dialog-image"><img alt=""></div></dialog>

@@ -103,5 +103,33 @@
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Txantxangorri_gaztea.jpg"
+  },
+  {
+    "species": "Turdus merula",
+    "author": "Andreas Trepte",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5/",
+    "source": "https://commons.wikimedia.org/wiki/File:Common_Blackbird.jpg"
+  },
+  {
+    "species": "Cyanistes caeruleus",
+    "author": "Francis Franklin",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Eurasian_blue_tit_Lancashire.jpg"
+  },
+  {
+    "species": "Passer domesticus",
+    "author": "Rhododendrites",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:House_sparrow_male_in_Prospect_Park_(53532).jpg"
+  },
+  {
+    "species": "Zosterops mayottensis",
+    "author": "Cécile Pheulpin",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mayotte_2009_(88)_cr.jpg"
   }
 ]

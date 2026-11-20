@@ -1,92 +1,164 @@
 [
   {
-    "asset": "identify.jpg",
-    "source": "outputs/appscreens/es/01-identificar.png",
+    "asset": "photo.jpg",
+    "source": "outputs/release-refresh-2026-11-19/raw/es/01-photo.png",
     "language": "es",
     "width": 1000,
-    "height": 2174
+    "height": 2174,
+    "source_sha256": "7b14bf64838560f741ffa3e5dd8449b74953a0b3d6d4c1dd38a19baae13f4081",
+    "capture": "iPhone 17, iOS 26.3, Wing 1.3 (25)"
+  },
+  {
+    "asset": "identify.jpg",
+    "source": "outputs/release-refresh-2026-11-19/raw/es/02-sound.png",
+    "language": "es",
+    "width": 1000,
+    "height": 2174,
+    "source_sha256": "8c7e02c9694997c60989038df789426a3b5f75f6b99cd982ee313f13497bdc65",
+    "capture": "iPhone 17, iOS 26.3, Wing 1.3 (25)"
   },
   {
     "asset": "widgets.jpg",
-    "source": "outputs/appscreens/es/02-widgets.png",
+    "source": "outputs/release-refresh-2026-11-19/raw/es/03-widgets.png",
     "language": "es",
     "width": 1000,
-    "height": 2174
+    "height": 2174,
+    "source_sha256": "70dd514ad41fdb45c28b1e7b9c92cf5c8c98814e0b357eebb4c9152b5307ba4e",
+    "capture": "iPhone 17, iOS 26.3, Wing 1.3 (25)"
+  },
+  {
+    "asset": "discover.jpg",
+    "source": "outputs/release-refresh-2026-11-19/raw/es/03-discover.png",
+    "language": "es",
+    "width": 1000,
+    "height": 2174,
+    "source_sha256": "61049cf68feb9103df26ccb2315764198fe5fcf6389476357761aacfe02e3bc8",
+    "capture": "iPhone 17, iOS 26.3, Wing 1.3 (25)"
   },
   {
     "asset": "guide.jpg",
-    "source": "outputs/appscreens/es/03-guia.png",
+    "source": "outputs/release-refresh-2026-11-19/raw/es/04-guide.png",
     "language": "es",
     "width": 1000,
-    "height": 2174
+    "height": 2174,
+    "source_sha256": "89986e098406052aa9977e3066952225796f7aef8cb1d66b31ec83526053f547",
+    "capture": "iPhone 17, iOS 26.3, Wing 1.3 (25)"
   },
   {
     "asset": "species.jpg",
-    "source": "outputs/appscreens/es/04-ficha.png",
+    "source": "outputs/release-refresh-2026-11-19/raw/es/05-species.png",
     "language": "es",
     "width": 1000,
-    "height": 2174
-  },
-  {
-    "asset": "journal.jpg",
-    "source": "outputs/appscreens/es/05-diario.png",
-    "language": "es",
-    "width": 1000,
-    "height": 2174
+    "height": 2174,
+    "source_sha256": "789990291649cf4c2afe57534ee1eb6a95f7e1f06ee2be3d1583661f4e2e9431",
+    "capture": "iPhone 17, iOS 26.3, Wing 1.3 (25)"
   },
   {
     "asset": "learn.jpg",
-    "source": "outputs/appscreens/es/06-aprender.png",
+    "source": "outputs/release-refresh-2026-11-19/raw/es/06-learn.png",
     "language": "es",
     "width": 1000,
-    "height": 2174
+    "height": 2174,
+    "source_sha256": "b4c4b808bc3310de003eecab035b00893355dffa8d9fb957ae53e6b21f05f4e8",
+    "capture": "iPhone 17, iOS 26.3, Wing 1.3 (25)"
+  },
+  {
+    "asset": "journal.jpg",
+    "source": "outputs/release-refresh-2026-11-19/raw/es/07-journal.png",
+    "language": "es",
+    "width": 1000,
+    "height": 2174,
+    "source_sha256": "44b32daf5f6b6e12f0baaba2d969cda479effa232fb77682ffcb5268bad2ca4f",
+    "capture": "iPhone 17, iOS 26.3, Wing 1.3 (25)"
+  },
+  {
+    "asset": "share.jpg",
+    "source": "outputs/release-refresh-2026-11-19/raw/es/08-share.png",
+    "language": "es",
+    "width": 1000,
+    "height": 2174,
+    "source_sha256": "f55b7c6b7c28092910435988a97c2c95d2799938a198c6a18c0d35a731d41859",
+    "capture": "iPhone 17, iOS 26.3, Wing 1.3 (25)"
+  },
+  {
+    "asset": "en/photo.jpg",
+    "source": "outputs/release-refresh-2026-11-19/raw/en/01-photo.png",
+    "language": "en",
+    "width": 1000,
+    "height": 2174,
+    "source_sha256": "5c8f5dd51ad192a0e1663e55c317042019304c1b236687c22ba02de3fb193b06",
+    "capture": "iPhone 17, iOS 26.3, Wing 1.3 (25)"
   },
   {
     "asset": "en/identify.jpg",
-    "source": "outputs/appscreens/all-languages/raw/en-US_01.png",
+    "source": "outputs/release-refresh-2026-11-19/raw/en/02-sound.png",
     "language": "en",
     "width": 1000,
     "height": 2174,
-    "source_sha256": "14c035dae8d80fda10df2047b1f5d0586c8cbc686cad484fffbb4ac9ca366570"
+    "source_sha256": "792b4cd4ead3ab85d65befad79bdaa15d455849e138a63a36f5066d3fa564058",
+    "capture": "iPhone 17, iOS 26.3, Wing 1.3 (25)"
   },
   {
     "asset": "en/widgets.jpg",
-    "source": "outputs/appscreens/all-languages/raw/en-US_02.png",
+    "source": "outputs/release-refresh-2026-11-19/raw/en/03-widgets.png",
     "language": "en",
     "width": 1000,
     "height": 2174,
-    "source_sha256": "d349ba6542f621830f8e07a223484af8e8660bf7747bb0cfe0c86ba970417f28"
+    "source_sha256": "22e2082211c9d8661fdbb45654f0f6754999e25f93a1e18e4c26eac485f8715d",
+    "capture": "iPhone 17, iOS 26.3, Wing 1.3 (25)"
+  },
+  {
+    "asset": "en/discover.jpg",
+    "source": "outputs/release-refresh-2026-11-19/raw/en/03-discover.png",
+    "language": "en",
+    "width": 1000,
+    "height": 2174,
+    "source_sha256": "22fe9e6033bd096003821704a5dd63eaae7be66b729269421ed9957a452c5a8b",
+    "capture": "iPhone 17, iOS 26.3, Wing 1.3 (25)"
   },
   {
     "asset": "en/guide.jpg",
-    "source": "outputs/appscreens/all-languages/raw/en-US_03.png",
+    "source": "outputs/release-refresh-2026-11-19/raw/en/04-guide.png",
     "language": "en",
     "width": 1000,
     "height": 2174,
-    "source_sha256": "a16ede7a11f5f8906c23a41d1bdf4623bc742f1f28cf7614d2bb97a903fc6435"
+    "source_sha256": "ec31f905ad19c86ee48f5c3f92bc919e961f6bd5c8b5251e64e61a7619d909f4",
+    "capture": "iPhone 17, iOS 26.3, Wing 1.3 (25)"
   },
   {
     "asset": "en/species.jpg",
-    "source": "outputs/appscreens/all-languages/raw/en-US_04.png",
+    "source": "outputs/release-refresh-2026-11-19/raw/en/05-species.png",
     "language": "en",
     "width": 1000,
     "height": 2174,
-    "source_sha256": "d473a87b2bc8879aa9c36732f40f803380049f8e0946ddf2b5f3ebc8d15914d4"
+    "source_sha256": "46e10968a848220244e4efcff09842db4fa3a8f556f85e162c91c0ba92dd0338",
+    "capture": "iPhone 17, iOS 26.3, Wing 1.3 (25)"
   },
   {
     "asset": "en/learn.jpg",
-    "source": "outputs/appscreens/all-languages/raw/en-US_05.png",
+    "source": "outputs/release-refresh-2026-11-19/raw/en/06-learn.png",
     "language": "en",
     "width": 1000,
     "height": 2174,
-    "source_sha256": "936c6254f72d50014844edb82ed54940d7fc19307176f70d1b883409a22dfcdd"
+    "source_sha256": "464868d591810820f5b4a11f52e71d5c40b23b14185ce947f1fb6a7f7d1d6384",
+    "capture": "iPhone 17, iOS 26.3, Wing 1.3 (25)"
   },
   {
     "asset": "en/journal.jpg",
-    "source": "outputs/appscreens/all-languages/raw/en-US_06.png",
+    "source": "outputs/release-refresh-2026-11-19/raw/en/07-journal.png",
     "language": "en",
     "width": 1000,
     "height": 2174,
-    "source_sha256": "c1bce9d424d7aa09656e5b51e9e20552ec8c2d38fa78aad053722e4204b1e35a"
+    "source_sha256": "d29add0ac2dbbba1e340ca579afbd683ec1e55e35c56288b730a38c4fc050acb",
+    "capture": "iPhone 17, iOS 26.3, Wing 1.3 (25)"
+  },
+  {
+    "asset": "en/share.jpg",
+    "source": "outputs/release-refresh-2026-11-19/raw/en/08-share.png",
+    "language": "en",
+    "width": 1000,
+    "height": 2174,
+    "source_sha256": "287d1e9767a6cea737ca4c9fa840ea3e0947ed422223b0d4a04b1cae4369da09",
+    "capture": "iPhone 17, iOS 26.3, Wing 1.3 (25)"
   }
 ]
